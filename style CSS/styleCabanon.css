@@ -1,0 +1,168 @@
+
+/* carte cabanon -----------------*/
+.container-selection{
+    width: 80%;
+    height: auto;
+    margin: 100px auto;
+}
+.cards-selection{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.img-products-selection{
+    flex-basis: 100%;
+    height: 100%;
+    background: url("../ressources/img/cabanon.jpg");
+    background-color: #7c2a2a;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+.card-selection{
+    flex-basis: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.cards-selection h3{
+    padding: 10px 20px 0;
+    font-size: clamp(25px,3vw,45px);
+    font-weight: 700;
+    color: #000;
+}
+.star-avis{
+    display: flex;
+    width: 40%;
+    height: 50px;
+    margin: 10px;
+}
+.star{
+    flex-basis: 100%;
+    flex-grow: 1;
+    height: 100%;
+}
+.star img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+.card-selection p{
+    padding-left:20px;
+    padding-top: 2%;
+    font-size: clamp(12px,2vw,22px);
+    color: #787878;
+}
+.card-selection p:nth-child(4){
+    font-size: clamp(25px,3vw,45px);
+    font-weight: 700;
+    color: #000;
+    letter-spacing: 3px;
+}
+.cards-selection button{
+    width: 60%;
+    height: 150px;
+    border-radius: 9999px;
+    background: transparent;
+    border: 2px solid #4ECB71;
+    text-align: center;
+    line-height: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #4ECB71;
+    padding: auto;
+    font-weight: 700;
+    font-size: clamp(16px,1vw,22px);
+    margin: 25px auto;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+
+}
+.card-selection button::before{
+    position: absolute;
+    content: "";
+    background: linear-gradient(100deg, rgba(78,203,113,1) 15%, rgba(0,237,180,1) 100%);
+    width: 500px;
+    height: 500px;
+    z-index: -10;
+    border-radius: 50%;
+    top: 100%;
+    left: 200%;
+    transition: .3s all;
+}
+.cards-selection button:hover{
+    color: #fff;
+}
+.cards-selection button:hover::before{
+    top: -80px;
+    left: -80px;
+}
+.cards-selection button:active{
+    top: 5px;
+}
+/* Caractéristiques ----------------------------------------------------------------------- */
+.caraceristique{
+    width: 80%;
+    height: auto;
+    margin: 100px auto;
+}
+.caraceristique h2{
+    font-size: clamp(20px, 2vw, 35px);
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #000;
+    margin-bottom: 32px;
+}
+.caraceristique h2::after{
+    content: "";
+    display: block;
+    width: 18%;
+    height: 4px;
+    background: #000;
+    border-radius: 9999px;
+}
+.list-cara{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.list-cara li{
+    width: 40%;
+    margin-left: 30px;
+    font-size: clamp(20px, 2vw, 30px);
+    color: #787878;
+    margin-bottom: 32px;
+}
+
+/* img ---------------------------------------------------------------------------- */
+
+.img-illu{
+    width: 50%;
+    height: 500px;
+    margin: 100px auto;
+}
+.img-illu img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+@media screen and (max-width:1250px) {
+    .container-selection{
+        width: 98%;
+    }
+
+}
+
+
+

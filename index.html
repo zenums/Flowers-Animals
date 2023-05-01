@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowers and Animals</title>
+    <link rel="stylesheet" href="style CSS/styleCommun.css">
+    <link rel="stylesheet" href="style CSS/styleIndex.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+     <!-- nav -->
+     <nav>
+        <div class="nav-bar">
+            <a href="index.html"><h2>F&A</h2></a>
+            <ul class="list-nav">
+                <li><a class="link-jardin" href="">Jardinage</a></li>
+                <li><a class="link-animalerie" href="">Animalerie</a></li>
+                <li><a href="index.html#conseil">Conseils & idées</a></li>
+            </ul>
+            <div class="logos">
+                <div class="logo compte"><a href="Compte.html"><img src="ressources/img/profile-user.png" alt=""></a>
+                </div>
+                <div class="logo panier"><img src="ressources/img/grocery-store.png" alt="">
+                </div>
+                <div class="logo recherche">
+                    <input class="input" type="text" placeholder="Rechercher">
+                    <button class="btn-recherche" type="button"><img src="ressources/img/loop.png" alt=""></button>
+                </div>
+            </div>
+            <div class="onglets">
+                <div class="onglet animalerie">
+                    <div class="carte-onglet nourriture">
+                        <div class="img">
+                            <h3>notre nourriture</h3>
+                            <a href="#">décourvrir</a>
+                        </div>
+                    </div>
+                    <div class="carte-onglet accessoire">
+                        <div class="img">
+                            <h3>nos accessoires</h3>
+                            <a href="#">décourvrir</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="onglet jardin">
+                    <div class="carte-onglet plante">
+                        <div class="img">
+                            <h3>nos plantes</h3>
+                            <a href="ProductPlantes.html">décourvrir</a>
+                        </div>
+                    </div>
+                    <div class="carte-onglet outils">
+                        <div class="img">
+                            <h3>nos outils</h3>
+                            <a href="ProductOutils.html">décourvrir</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+     <!-- hero banner -->
+     <header>
+        <div class="container-header">
+            <video muted autoplay loop>
+                <source src="ressources/vid/vid.mp4" type="video/mp4">
+            </video>
+            <img src="ressources/img/logo.png" alt="">
+            <h1>Flowers & Animals</h1>
+            <button>nos offres</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- section tendances -->
+        <section>
+            <div class="products">
+                <h2 class="title">tendances</h2>
+                <div class="container-cards">
+                    <div class="card">
+                        <img src="ressources/img-product/rateau.jpg" alt="">
+                        <h4>Rateau</h4>
+                        <p>Acier et bois<br>68cm</p>
+                        <button>18.99€</button>
+                    </div>
+                    <div class="card">
+                        <img src="ressources/img-product/tomate.jpg" alt="">
+                        <h4>Plant de tomate</h4>
+                        <p>Coeur de boeuf<br>prix à l’unité</p>
+                        <button>5.99€</button>
+                    </div>
+                    <div class="card">
+                        <img src="ressources/img-product/bol.jpg" alt="">
+                        <h4>Bol pour animaux</h4>
+                        <p>Résine bleu</p>
+                        <button>11.99€</button>
+                    </div>
+                    <div class="card">
+                        <img src="ressources/img-product/terreau.jpg" alt="">
+                        <h4>Sac de terreau</h4>
+                        <p>Terreau riche en nutriment<br>prix à l’unité</p>
+                        <button>9.99€</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- section nos offres -->
+        <section>
+            <div class="offres" id="conseil">
+                <h2 class="title">nos offres</h2>
+                <div class="container-offres">
+                    <div class="cardS one">
+                        <div class="img">
+                            <img src="ressources/img-product/pot.jpg" alt="">
+                        </div>
+                        <div class="flex">
+                            <h3>Conseil & Idées</h3>
+                            <p>Retrouvez tous les conseils de nos experts pour concevoir au    mieux votre jardin et prendre soin de vos animaux.</p>
+                        </div>
+                    </div>
+                    <div class="cardS two">
+                        <div class="img"><img src="ressources/img-product/chat.jpg" alt="">
+                        </div>
+                        <h3>Animalerie</h3>
+                        <p>Venez découvrir tous nos animaux tels que les chats, les       poissons, les lapins et plein d’autres !
+                        Ainsi que tous les accessoires indispansables pour vos petits compagnons !
+                        </p>
+                    </div>
+                    <div class="cardS three">
+                        <div class="img"><img src="ressources/img-product/cactus.jpg" alt="">
+                        </div>
+                        <h3>Jardinage</h3>
+                        <p>Le printemps arrive, une petite envie de jardinage ?
+                            Venez découvrir toutes variétés de fleurs et de plantes, aussi bien pour votre petit chez vous que votre magnifique jardin.
+                        </p>
+                    </div>
+                    <div class="cardS four">
+                            <img src="ressources/img/logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section about ------------------------------------------------------------->
+        <section>
+            <div class="about" id="about">
+                <h2 class="title">Qui sommes nous ?</h2>
+                <p>Flowers & Animals est une boutique spécialisée dans la vente de plantes et d'accessoires de jardinage, ainsi que dans l'adoption d'animaux et de leurs accessoires. 
+                Située à Blois, cette boutique se veut proche et respectueuse de sa clientèle en offrant des conseils personnalisés à ses clients.</p> 
+                    
+                <p>Que vous soyez novice ou jardinier expérimenté, vous trouverez ici tout ce dont vous avez besoin pour embellir votre espace extérieur, que ce soit avec des plantes d'intérieur ou d'extérieur, des outils de jardinage, des aliments pour animaux, des accessoires de dressage ou des jouets pour vos compagnons à quatre pattes.</p> 
+                    
+                 <p>Avec une équipe de professionnels passionnés et attentionnés, Flowers & Animals est la destination idéale pour tous ceux qui cherchent à créer un environnement de vie sain et heureux pour eux-mêmes et pour leurs animaux de compagnie.</p>
+            </div>
+        </section>
+
+        <!-- section contact  -->
+
+        <section>
+            <div class="contact">
+                <h2 class="title">nous contacter</h2>
+                <div class="container-contact">
+                    <div class="carte"></div>
+                    <div class="contact-card">
+                        <h5>Adresse :</h5>
+                        <p>8 Avenue Rose, 41000 Blois</p>
+                        <h5>Téléphone :</h5>
+                        <p>05 41 00 06 55</p>
+                        <h5>Réseaux sociaux :</h5>
+                        <div class="logos-reseaux">
+                            <div class="logo-reseaux twitter"><img src="ressources/img/twitter.png" alt=""></div>
+                            <div class="logo-reseaux instagram"><img src="ressources/img/insta.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="border"></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="numero-pages">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+            <p>4</p>
+        </div>
+    </main>
+    <footer>
+        <ul class="list-footer">
+            <li><a href="">mentions légales</a></li>
+            <li><a href="">cookies</a></li>
+            <li><a href="">SAV</a></li>
+            <li><a href="">flowers&animals</a></li>
+            <li><a href="">recrutement</a></li>
+            
+            
+        </ul>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
